@@ -1,12 +1,14 @@
 # Homebrew Tap
 
-Provides `ytt` via [Homebrew](http://brew.sh/) package. Homebrew is "the missing package manager for OS X".
+Provides tools from `github.com/k14s` via [Homebrew](http://brew.sh/) package.
 
 To install a package:
 
 ```bash
-$ brew tap get-ytt/tap
+$ brew tap k14s/tap
 $ brew install ytt
+$ brew install kapp
+$ brew install kwt
 ```
 
 ## Development
