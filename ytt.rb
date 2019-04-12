@@ -1,9 +1,9 @@
 class Ytt < Formula
   desc "YAML Templating Tool"
   homepage "https://get-ytt.io"
-  version "v0.5.0"
-  url "https://github.com/k14s/ytt/releases/download/v0.5.0/ytt-darwin-amd64"
-  sha256 "043b98b2425496ebf88f9c2d0ad4c3fdba12fb4037e99fa8a44499100ad0e486"
+  version "v0.6.0"
+  url "https://github.com/k14s/ytt/releases/download/v0.6.0/ytt-darwin-amd64"
+  sha256 "5bb61ca3ffdaa37cb9aa3f655fe3ec7df5b5b64119d7cc9571a775852b78ba91"
 
   depends_on :arch => :x86_64
 
