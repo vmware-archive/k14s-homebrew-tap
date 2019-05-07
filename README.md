@@ -12,6 +12,8 @@ $ brew install kapp
 $ brew install kwt
 ```
 
+For Linux see [https://k14s.io](https://k14s.io) for instructions.
+
 ## Development
 
 https://github.com/Homebrew/brew/blob/master/docs/How-to-Create-and-Maintain-a-Tap.md
