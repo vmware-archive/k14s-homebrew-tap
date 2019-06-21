@@ -9,7 +9,7 @@ $ brew tap k14s/tap
 $ brew install ytt kbld kapp kwt
 ```
 
-For Linux see [https://k14s.io](https://k14s.io) for instructions.
+For Linux or Windows see [https://k14s.io](https://k14s.io) for instructions.
 
 ## Development
 
