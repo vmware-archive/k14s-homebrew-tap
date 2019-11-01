@@ -6,7 +6,7 @@ To install a package:
 
 ```bash
 $ brew tap k14s/tap
-$ brew install ytt kbld kapp kwt
+$ brew install ytt kbld kapp kwt imgpkg
 ```
 
 For Linux or Windows see [https://k14s.io](https://k14s.io) for instructions.
