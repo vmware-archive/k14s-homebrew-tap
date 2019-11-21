@@ -1,9 +1,9 @@
 class Kapp < Formula
   desc "Kapp"
   homepage "https://get-kapp.io"
-  version "v0.14.0"
-  url "https://github.com/k14s/kapp/releases/download/v0.14.0/kapp-darwin-amd64"
-  sha256 "7d41af44fc3290c8b783b75672d2dc55dfab751252db0717a26fceb2585daa2d"
+  version "v0.15.0"
+  url "https://github.com/k14s/kapp/releases/download/v0.15.0/kapp-darwin-amd64"
+  sha256 "8d3744e9b01c0c2ec4526f5c86ed838854b56806c656b83fc0eff78229ac68f2"
 
   depends_on :arch => :x86_64
 
