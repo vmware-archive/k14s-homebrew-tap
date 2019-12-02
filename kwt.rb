@@ -1,9 +1,9 @@
 class Kwt < Formula
   desc "Kubernetes Workstation Tools"
   homepage "https://github.com/k14s/kwt"
-  version "v0.0.5"
-  url "https://github.com/k14s/kwt/releases/download/v0.0.5/kwt-darwin-amd64"
-  sha256 "114adb8b4f80e2f20c008fd2d4695641b5228c4c4525a50f1191558b29335494"
+  version "v0.0.6"
+  url "https://github.com/k14s/kwt/releases/download/v0.0.6/kwt-darwin-amd64"
+  sha256 "555d50d5bed601c2e91f7444b3f44fdc424d721d7da72955725a97f3860e2517"
 
   depends_on :arch => :x86_64
 
