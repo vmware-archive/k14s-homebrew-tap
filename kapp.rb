@@ -1,14 +1,14 @@
 class Kapp < Formula
   desc "Kapp"
   homepage "https://get-kapp.io"
-  version "v0.18.0"
+  version "v0.19.0"
 
   if OS.mac?
-    url "https://github.com/k14s/kapp/releases/download/v0.18.0/kapp-darwin-amd64"
-    sha256 "e46aa8b334832275ddf9b982c0b88633bc891a8ffff1e0204ee36cf2fb2f20fb"
+    url "https://github.com/k14s/kapp/releases/download/v0.19.0/kapp-darwin-amd64"
+    sha256 "8817b3afea01173d53d1a76c266cb1897eb94c5d3d2df496cfa54c464c064ee7"
   elsif OS.linux?
-    url "https://github.com/k14s/kapp/releases/download/v0.18.0/kapp-linux-amd64"
-    sha256 "4f08b5e3639c2d126903efa81cbc1af2ff342464cc24815442c190e4b220d52f"
+    url "https://github.com/k14s/kapp/releases/download/v0.19.0/kapp-linux-amd64"
+    sha256 "99a2597d29ab9cf75d636a8220cb7e5ee315ac85b7adeb48b6c1ccb56a5cf477"
   end
 
   depends_on :arch => :x86_64
