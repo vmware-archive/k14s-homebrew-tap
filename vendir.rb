@@ -1,14 +1,14 @@
 class Vendir < Formula
   desc "Declaratively state what should be in a directory"
   homepage "https://github.com/k14s/vendir"
-  version "v0.4.0"
+  version "v0.5.0"
 
   if OS.mac?
-    url "https://github.com/k14s/vendir/releases/download/v0.4.0/vendir-darwin-amd64"
-    sha256 "3888fbfaa634dc85d60b70d1d0e0a75c78236d8cce97884052d858748544dc1e"
+    url "https://github.com/k14s/vendir/releases/download/v0.5.0/vendir-darwin-amd64"
+    sha256 "57be681d154607b21b1789bf0999e0b9ab6870673180d25e19a5b29c7520c68e"
   elsif OS.linux?
-    url "https://github.com/k14s/vendir/releases/download/v0.4.0/vendir-linux-amd64"
-    sha256 "91f435084fc615d2cab0fc546997472a1669997129cd5605c67fa9d575ad916b"
+    url "https://github.com/k14s/vendir/releases/download/v0.5.0/vendir-linux-amd64"
+    sha256 "bdd1490c879cb07f7cfe8d45051c9f185b493347637370a37de9ddaf84890b03"
   end
 
   depends_on :arch => :x86_64
