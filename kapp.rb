@@ -5,10 +5,10 @@ class Kapp < Formula
 
   if OS.mac?
     url "https://github.com/k14s/kapp/releases/download/v0.25.0/kapp-darwin-amd64"
-    sha256 "e021f9ba9a1398b502e8e4146d695fb79c1f1f975136a9c3ec0a2b29a2bfcaf5"
+    sha256 "de558603a95fdc42b73d337ecef0b6bf41c2c098dba9b71524feda734b857cf7"
   elsif OS.linux?
     url "https://github.com/k14s/kapp/releases/download/v0.25.0/kapp-linux-amd64"
-    sha256 "044a8355c1a3aa4c9e427fc64f7074b80cb759e539771d70d38933886dbd2df4"
+    sha256 "9b760e6dfb8e8ed4886141affb99d6b4ab7e80178f3991cbb68f44a5bc1353de"
   end
 
   depends_on :arch => :x86_64
