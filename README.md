@@ -1,16 +1,10 @@
 # Homebrew Tap
 
-Provides tools from `github.com/k14s` via [Homebrew](http://brew.sh/) package.
+!!! This branch is deprecated. !!!
 
-To install a package:
+Note that we recently moved to develop branch, you might have to retap this repo:
 
-```bash
-$ brew tap k14s/tap
-$ brew install ytt kbld kapp kwt imgpkg vendir
 ```
-
-For Linux or Windows see [https://k14s.io](https://k14s.io) for instructions.
-
-## Development
-
-https://github.com/Homebrew/brew/blob/master/docs/How-to-Create-and-Maintain-a-Tap.md
+$ brew untap k14s/tap
+$ brew tap k14s/tap
+```
