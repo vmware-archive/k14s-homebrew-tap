@@ -1,7 +1,7 @@
 class Vendir < Formula
   desc "Declaratively state what should be in a directory"
   homepage "https://github.com/k14s/vendir"
-  version "v0.10.0"
+  version "v0.11.0"
 
   if OS.mac?
     url "https://github.com/k14s/vendir/releases/download/v0.11.0/vendir-darwin-amd64"
