@@ -4,11 +4,11 @@ class Vendir < Formula
   version "v0.10.0"
 
   if OS.mac?
-    url "https://github.com/k14s/vendir/releases/download/v0.10.0/vendir-darwin-amd64"
-    sha256 "de6da267406b90ac29ea87c831d18811681cc339115bc7b0e5f155227914f024"
+    url "https://github.com/k14s/vendir/releases/download/v0.11.0/vendir-darwin-amd64"
+    sha256 "41d0164e71678d737a37da44a522a1e138907a3cfda4816614892aecfe47d961"
   elsif OS.linux?
-    url "https://github.com/k14s/vendir/releases/download/v0.10.0/vendir-linux-amd64"
-    sha256 "85bce9171f2f18da51695db185b33df2d4d555495cc45429e4838edf73b89d77"
+    url "https://github.com/k14s/vendir/releases/download/v0.11.0/vendir-linux-amd64"
+    sha256 "ce9134276a369babee97cab6f087d316d4a32214f58815842e594bc1c79ac6d1"
   end
 
   depends_on :arch => :x86_64
