@@ -5,18 +5,11 @@ Provides tools from `github.com/k14s` via [Homebrew](http://brew.sh/) package.
 To install a package:
 
 ```bash
-$ brew tap k14s/tap
+$ brew tap vmware-tanzu/carvel
 $ brew install ytt kbld kapp kwt imgpkg vendir
 ```
 
-Note that we recently moved to `develop` branch, you might have to retap this repo:
-
-```
-$ brew untap k14s/tap
-$ brew tap k14s/tap
-```
-
-For Windows see [https://k14s.io](https://k14s.io) for instructions.
+For Windows see [https://carvel.dev](https://carvel.dev) for instructions.
 
 ## Development
 
