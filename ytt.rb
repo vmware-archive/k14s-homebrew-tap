@@ -2,6 +2,7 @@ class Ytt < Formula
   desc "YAML Templating Tool"
   homepage "https://get-ytt.io"
   version "v0.30.0"
+  deprecate! date: "2021-01-01", because: "Migrating tap to vmware-tanzu/carvel"
 
   if OS.mac?
     url "https://github.com/k14s/ytt/releases/download/v0.30.0/ytt-darwin-amd64"

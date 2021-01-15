@@ -2,6 +2,7 @@ class Kwt < Formula
   desc "Kubernetes Workstation Tools"
   homepage "https://github.com/k14s/kwt"
   version "v0.0.6"
+  deprecate! date: "2021-01-01", because: "Migrating tap to vmware-tanzu/carvel"
 
   if OS.mac?
     url "https://github.com/k14s/kwt/releases/download/v0.0.6/kwt-darwin-amd64"

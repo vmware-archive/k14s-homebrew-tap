@@ -2,6 +2,7 @@ class Vendir < Formula
   desc "Declaratively state what should be in a directory"
   homepage "https://github.com/k14s/vendir"
   version "v0.13.0"
+  deprecate! date: "2021-01-01", because: "Migrating tap to vmware-tanzu/carvel"
 
   if OS.mac?
     url "https://github.com/k14s/vendir/releases/download/v0.13.0/vendir-darwin-amd64"

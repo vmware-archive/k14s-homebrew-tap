@@ -2,6 +2,7 @@ class Kbld < Formula
   desc "kbld helps working with container images used in Kubernetes configuration files"
   homepage "https://github.com/k14s/kbld"
   version "v0.27.0"
+  deprecate! date: "2021-01-01", because: "Migrating tap to vmware-tanzu/carvel"
 
   if OS.mac?
     url "https://github.com/k14s/kbld/releases/download/v0.27.0/kbld-darwin-amd64"
