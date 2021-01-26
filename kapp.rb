@@ -2,6 +2,7 @@ class Kapp < Formula
   desc "Kapp"
   homepage "https://get-kapp.io"
   version "v0.35.0"
+  deprecate! date: "2021-01-01", because: "Migrating tap to vmware-tanzu/carvel"
 
   if OS.mac?
     url "https://github.com/k14s/kapp/releases/download/v0.35.0/kapp-darwin-amd64"

@@ -1,3 +1,14 @@
+# Deprecated tap
+This tap will no longer be updated.
+
+In order to get new versions of the software in this tap do the following
+```bash
+$ brew untap k14s/tap
+$ brew tap vmware-tanzu/carvel
+```
+
+---
+
 # Homebrew Tap
 
 Provides tools from `github.com/k14s` via [Homebrew](http://brew.sh/) package.
